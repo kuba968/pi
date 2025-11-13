@@ -14,3 +14,4 @@ zad4:
 git branch kolokwium/kuba968
 git checkout kolokwium/kuba968
 
+
