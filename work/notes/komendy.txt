@@ -4,7 +4,13 @@ mkdir -p work/notes
 grep -Ei 'error|warn' data/logs/system.log > out/warn_err.txt
 
 zad2:
+cat data/csv/a.csv | tail -5 | awk -F, '{print $2}' | sort -b | grep "apple" | wc -l
 
 zad3: 
 mkdir scripts
 chmod 777 report.sh
+
+zad4:
+git branch kolokwium/kuba968
+git checkout kolokwium/kuba968
+
