@@ -1,7 +1,7 @@
 #1/bin/bash
 #zmienna p = podanemu pierwszemu argumentowi
 p="${1:-}"
-#sprawdzenie czy podany argument jest instniejacym katalogiem
+#sprawdzenie czy podany argument jest instniejacym katalogiem jeżeli tak to wykonaj komendy w środku
 if  [ -d "$p" ]; then
 	date -Is
 	du -h "$p" | sort -hr | head -5
